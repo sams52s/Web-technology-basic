@@ -1,0 +1,31 @@
+.top {
+    color: brown;
+    text-align: center;
+}
+
+table,
+th,
+tr {
+    border: 1px solid black;
+    /*padding: 2%;*/
+}
+
+table,
+tr {
+    width: 100%;
+}
+
+input {
+    width: 99%;
+}
+
+body {
+    padding: 8%;
+}
+
+input {
+    background-color: skyblue;
+    margin: 10px;
+    width: 10rem;
+    padding: 10px;
+}

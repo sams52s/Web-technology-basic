@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Registration</title>
+    <style>
+        body {
+            background-color: #abacb0;
+        }
+        
+        .logreg {
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-top: 180px;
+            margin-left: 30%;
+            margin-right: 30%;
+            background-color: gray;
+            border: 1px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        
+        #submit {
+            background-color: rgba(31, 109, 212, 0.774);
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logreg">
+        <div class="login" id="login" onmouseover="log()">
+            <h2>Login Here</h2>
+            <form action="login.php" method="post">
+                User Name <br>
+                <input type="text" name="uname" id="uname"> <br> password <br>
+                <input type="password" name="pass" id="pass"> <br>
+                <input type="submit" value="Login" id="submit">
+            </form>
+        </div>
+        <div class="Register" id="Register" onmouseover="reg()">
+            <h2>Register Here</h2>
+            <form action="./Registartion.php" method="post">
+                User Name <br>
+                <input type="text" name="uname" id="uname"> <br> password <br>
+                <input type="password" name="pass" id="pass"> <br>
+                <input type="submit" value="Register" id="submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    function log() {
+        document.getElementById("login").style.backgroundColor = "white";
+        document.getElementById("Register").style.backgroundColor = "gray";
+    }
+
+    function reg() {
+        document.getElementById("login").style.backgroundColor = "gray";
+        document.getElementById("Register").style.backgroundColor = "white";
+    }
+</script>

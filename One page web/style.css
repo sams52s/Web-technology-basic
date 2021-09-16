@@ -1,0 +1,11 @@
+.head {
+    display: flex;
+}
+
+.date {
+    margin-left: 78%;
+}
+
+.footer {
+    margin-left: 50%;
+}

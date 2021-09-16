@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #field {
+            padding: 3%;
+            width: 25%;
+            background-color: orangered;
+            margin: 5%;
+        }
+        
+        #txt {
+            margin: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <h4 id="txt"></h4>
+    <div id="field" onClick="change()" onmouseover="change()">
+        <p>Mouse hover or click to see the changes</p>
+    </div>
+</body>
+
+</html>
+<script>
+    function change() {
+        var red = Math.floor(Math.random() * 256);
+        var blue = Math.floor(Math.random() * 256);
+        var green = Math.floor(Math.random() * 256);
+        document.getElementById("field").style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")";
+        var txt = "After hover out mouse";
+        document.getElementById("txt").innerHTML = txt;
+    }
+</script>

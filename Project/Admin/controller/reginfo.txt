@@ -1,0 +1,3 @@
+sams|Toufiqul a Sams|123|sams52tas@gmail.com|1750096696|Bangladesh,Rajshahi, Binodpur Bazar|male|admin
+Sams|Toufiqul Sams|000|sams52tas@gmail.com|1750096696|mirzapur , Binodpur Bazar ; motihar ; Rajshahi|male|Employee
+Sams|Toufiqul Sams|555|sams52tas@gmail.com|1750096696|mirzapur , Binodpur Bazar ; motihar ; Rajshahi|male|Employee
